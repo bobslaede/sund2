@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bobslaede/sund2/issues"
   },
-  "homepage": "https://github.com/bobslaede/sund2"
+  "homepage": "https://github.com/bobslaede/sund2",
+  "dependencies": {
+    "buckets": "0.0.6-rc"
+  }
 }
