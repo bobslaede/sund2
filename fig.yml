@@ -1,3 +1,7 @@
+db:
+  image: dockerfile/mongodb
+  ports:
+    - "27017:27017"
 web:
   build: ./
   ports: 
@@ -6,8 +10,6 @@ web:
     - db
   environment:
     NODE_ENV: development
-  command: node index.js
-db:
-  image: mongo
-  ports:
-    - "27017:27017"
+  volumes:
+    - .:/code
+  command: npm start
