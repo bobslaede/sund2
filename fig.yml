@@ -1,9 +1,12 @@
 web:
   build: ./
   ports: 
-    - "8008:3000"
+    - "3000:3000"
   links:
     - db
+  environment:
+    NODE_ENV: development
+  command: node index.js
 db:
   image: mongo
   ports:
