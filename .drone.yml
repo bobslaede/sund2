@@ -2,4 +2,4 @@ image: node0.10
 deploy:
   bash:
     script:
-      - ./deploy,sh
+      - ./deploy.sh
