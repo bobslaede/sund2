@@ -1,6 +1,4 @@
 image: node0.10
-script:
-  - exit 0
 deploy:
   bash:
     script:
