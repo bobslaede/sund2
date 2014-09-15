@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "./node_modules/.bin/nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/bobslaede/sund2",
   "dependencies": {
     "buckets": "0.0.6-rc"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1"
   }
 }

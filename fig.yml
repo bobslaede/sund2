@@ -1,7 +1,7 @@
 db:
   image: dockerfile/mongodb
   expose:
-    - "27017"
+    - "21017"
 web:
   build: ./
   ports:
