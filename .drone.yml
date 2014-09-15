@@ -1,4 +1,6 @@
 image: node0.10
+script:
+  - npm test
 deploy:
   bash:
     script:
