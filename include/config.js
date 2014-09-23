@@ -45,11 +45,11 @@ var config = {
 
     //The root of the site.  This host part should ALWAYS match the value of
     //the siteIP
-	siteRoot: 'http://localhost:8080',
+	siteRoot: 'http://' + (process.env.HOSTNAME || process.env.C9_HOSTNAME),
 
     //The hostname or IP address represented by the entire site.  Should match
     //your domain name if in production use.
-	siteIP:   'localhost',
+	siteIP:   process.env.IP || 'localhost',
 
     //The primary port to listen for traffic on.  Some environment such as
     //heroku force you to use whatever port they have available.  In such cases
