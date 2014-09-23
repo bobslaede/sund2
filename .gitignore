@@ -4,9 +4,7 @@
 .c9
 public/media/
 public/docs/
-public/bower_components/
 node_modules/minify/min/
 log/
-node_modules
 out
 mongo_data
