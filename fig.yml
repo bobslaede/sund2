@@ -9,7 +9,10 @@ web:
   links:
     - db
   environment:
-    NODE_ENV: development
+    NODE_ENV: production
+    HOSTNAME: ny.sundhedshjoernet.dk
+    PORT: 3000
+    IP: '127.0.0.1'
   volumes:
     - .:/code
   command: npm start
