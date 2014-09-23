@@ -1,0 +1,27 @@
+{
+    "siteName": "Sund2",
+    "log_level": "debug",
+    "db": {
+        "name": "sund2",
+        "writeConcern": 1
+    },
+    "cache": {
+        "fake": true,
+        "host": "localhost",
+        "port": 6379
+    },
+    "settings": {
+        "use_memory": true,
+        "use_cache": false
+    },
+    "templates": {
+        "use_memory": true,
+        "use_cache": false
+    },
+    "plugins": {
+        "caching": {
+            "use_memory": true,
+            "use_cache": false
+        }
+    }
+}

@@ -2,7 +2,6 @@
 .project
 .idea
 .c9
-config.json
 public/media/
 public/docs/
 public/bower_components/

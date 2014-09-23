@@ -64,7 +64,7 @@ var config = {
 	db: {
         type:'mongo',
 		servers: [
-          (process.env.DB_1_PORT_21017_TCP_ADDR || 'localhost')
+          (process.env.DB_1_PORT || 'mongodb://localhost:21017').replace('tcp://', 'mongodb://')
         ],
 
         //the name of the default DB for the system
