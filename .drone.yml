@@ -1,7 +1,6 @@
 image: node0.10
 script:
-  - npm install -d
-  - ./node_modules/.bin/bower install
+  - npm test
 deploy:
   bash:
     script:
