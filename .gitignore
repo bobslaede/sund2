@@ -31,3 +31,5 @@ build/Release
 .idea
 
 *.swp
+
+mongo_data
