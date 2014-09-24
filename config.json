@@ -1,6 +1,7 @@
 {
     "siteName": "Sund2",
     "log_level": "info",
+    "siteRoot" : "/",
     "db": {
         "name": "sund2",
         "writeConcern": 1

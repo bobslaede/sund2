@@ -1,6 +1,6 @@
 db:
   image: dockerfile/mongodb
-  expose:
+  ports:
     - "21017"
 web:
   build: ./

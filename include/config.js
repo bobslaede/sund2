@@ -64,7 +64,7 @@ var config = {
 	db: {
         type:'mongo',
 		servers: [
-          (process.env.DB_1_PORT || 'mongodb://localhost:21017').replace('tcp://', 'mongodb://') + '/'
+      'mongodb://' + (process.env.DB_1_PORT_21017_TCP_ADDR || 'localhost') + '/'
         ],
 
         //the name of the default DB for the system
@@ -210,10 +210,10 @@ var config = {
     command: {
         broker: 'redis'
     },
-    
-    //The media block specifies the options for how media is persisted.  
+
+    //The media block specifies the options for how media is persisted.
     media: {
-        
+
         provider: 'fs',
         parent_dir: 'public',
     }

@@ -18,10 +18,6 @@
 // A grouping of all require calls
 global.pb = require('./include/requirements');
 
-console.log('****************************************');
-console.log(pb.config.db);
-console.log('****************************************');
-
 /**
  * The main driver file for PencilBlue.  Provides the function necessary to
  * start up the master and/or child processes.  In addition, it is responsible
